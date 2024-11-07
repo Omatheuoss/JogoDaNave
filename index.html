@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <title>Cosmic Invaders</title>
+</head>
+<body>
+    
+    <div id="painel">
+        <div id="terra">
+            Planeta
+        </div>
+        <div class="medidorPlaneta">
+            <div id="barraPlaneta"></div>
+        </div>
+        <div class="contBombas"></div>
+    </div>
+
+    <div id="naveJog" class="navJog"> </div>
+    <div id="telaMsg" class="telaMsg"></div>
+    <button id="btnJogar" class="btnJogar">Jogar</button>
+
+    <audio id="somFundo" loop>
+        <source src="imagens/missaoespaco.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
